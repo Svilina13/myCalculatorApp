@@ -1,0 +1,14 @@
+{
+  "name": "claculatorapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Functions.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.3"
+  }
+}

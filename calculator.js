@@ -1,0 +1,12 @@
+import { Functions } from "./Functions.js";
+const addButton = document.getElementById("add");
+const subtractButton = document.getElementById("subtract");
+const multiplyButton = document.getElementById("multiply");
+const divideButton = document.getElementById("divide");
+const clearButton = document.getElementById("clear");
+const functions = new Functions();
+addButton.addEventListener("click", functions.addition);
+multiplyButton.addEventListener("click", functions.multiplication);
+subtractButton.addEventListener("click", functions.subtraction);
+divideButton.addEventListener("click", functions.division);
+clearButton.addEventListener("click", functions.clear);

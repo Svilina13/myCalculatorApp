@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1> Calculate Me </h1>
+    <p>Your first number <input type="Number" id="num1" placeholder="Number 1"> </p1>
+    <p>Your second number <input type="Number" id="num2" placeholder="Number 2"> </p1>
+     
+    <p>   
+        <button id="add"> Add </button>
+        <button id="subtract"> Subtract </button>
+        <button id="multiply"> Multiply </button>
+        <button id="divide"> Divide </button>
+    </p>
+    <p>
+        <button id="clear"> Clear </button>
+    </p>
+    <div id="error-message" style="display: none; color: red;">
+        Only numbers between -9999.99 and 9999.99 are allowed.
+    </div>
+    <h3>Result: <output id="result"> </output></h3>
+    <script type="module" src="calculator.js"></script>
+</body>
+</html>
